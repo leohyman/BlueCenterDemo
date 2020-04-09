@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZAA-Fc-VgG"/>
+                        <viewControllerLayoutGuide type="bottom" id="ygn-qM-B3M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="xxQ-Tx-YMg">
+                                <rect key="frame" x="89" y="188" width="236" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="T3b-1s-TeP">
+                                <rect key="frame" x="20" y="281" width="374" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="退出程序,验证AppDelegate类里面的launchOptions有值">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="exitAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Co0-9a-Rap"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="T3b-1s-TeP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4wT-S2-Ls4"/>
+                            <constraint firstItem="xxQ-Tx-YMg" firstAttribute="centerX" secondItem="T3b-1s-TeP" secondAttribute="centerX" id="CSg-1f-99C"/>
+                            <constraint firstItem="xxQ-Tx-YMg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="LrK-HI-eFv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="T3b-1s-TeP" secondAttribute="trailing" id="e2A-WN-pJu"/>
+                            <constraint firstItem="T3b-1s-TeP" firstAttribute="top" secondItem="xxQ-Tx-YMg" secondAttribute="bottom" constant="59" id="pej-9n-dUL"/>
+                            <constraint firstItem="xxQ-Tx-YMg" firstAttribute="top" secondItem="ZAA-Fc-VgG" secondAttribute="bottom" constant="144" id="z0j-CX-Pi1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="xxQ-Tx-YMg" id="Qlv-s9-1Pg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60.869565217391312" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+</document>

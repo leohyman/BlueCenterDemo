@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5238F2CF243EB9210027FABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238F2CE243EB9210027FABB /* AppDelegate.m */; };
+		5238F2D2243EB9210027FABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238F2D1243EB9210027FABB /* ViewController.m */; };
+		5238F2D5243EB9210027FABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5238F2D3243EB9210027FABB /* Main.storyboard */; };
+		5238F2D7243EB9230027FABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5238F2D6243EB9230027FABB /* Assets.xcassets */; };
+		5238F2DA243EB9230027FABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5238F2D8243EB9230027FABB /* LaunchScreen.storyboard */; };
+		5238F2DD243EB9230027FABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238F2DC243EB9230027FABB /* main.m */; };
+		5238F2E5243EB9920027FABB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5238F2E4243EB9920027FABB /* CoreBluetooth.framework */; };
+		5238F2E9243EBA000027FABB /* UAESCoreBlueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238F2E7243EBA000027FABB /* UAESCoreBlueManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5238F2CA243EB9210027FABB /* BlueCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5238F2CD243EB9210027FABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5238F2CE243EB9210027FABB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5238F2D0243EB9210027FABB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5238F2D1243EB9210027FABB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5238F2D4243EB9210027FABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5238F2D6243EB9230027FABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5238F2D9243EB9230027FABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5238F2DB243EB9230027FABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5238F2DC243EB9230027FABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5238F2E4243EB9920027FABB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5238F2E7243EBA000027FABB /* UAESCoreBlueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAESCoreBlueManager.m; sourceTree = "<group>"; };
+		5238F2E8243EBA000027FABB /* UAESCoreBlueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAESCoreBlueManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5238F2C7243EB9210027FABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5238F2E5243EB9920027FABB /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5238F2C1243EB9210027FABB = {
+			isa = PBXGroup;
+			children = (
+				5238F2CC243EB9210027FABB /* BlueCenterDemo */,
+				5238F2CB243EB9210027FABB /* Products */,
+				5238F2E3243EB9920027FABB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5238F2CB243EB9210027FABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5238F2CA243EB9210027FABB /* BlueCenterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5238F2CC243EB9210027FABB /* BlueCenterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5238F2E6243EBA000027FABB /* UAESCoreBlueManager */,
+				5238F2CD243EB9210027FABB /* AppDelegate.h */,
+				5238F2CE243EB9210027FABB /* AppDelegate.m */,
+				5238F2D0243EB9210027FABB /* ViewController.h */,
+				5238F2D1243EB9210027FABB /* ViewController.m */,
+				5238F2D3243EB9210027FABB /* Main.storyboard */,
+				5238F2D6243EB9230027FABB /* Assets.xcassets */,
+				5238F2D8243EB9230027FABB /* LaunchScreen.storyboard */,
+				5238F2DB243EB9230027FABB /* Info.plist */,
+				5238F2DC243EB9230027FABB /* main.m */,
+			);
+			path = BlueCenterDemo;
+			sourceTree = "<group>";
+		};
+		5238F2E3243EB9920027FABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5238F2E4243EB9920027FABB /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5238F2E6243EBA000027FABB /* UAESCoreBlueManager */ = {
+			isa = PBXGroup;
+			children = (
+				5238F2E8243EBA000027FABB /* UAESCoreBlueManager.h */,
+				5238F2E7243EBA000027FABB /* UAESCoreBlueManager.m */,
+			);
+			path = UAESCoreBlueManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5238F2C9243EB9210027FABB /* BlueCenterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5238F2E0243EB9230027FABB /* Build configuration list for PBXNativeTarget "BlueCenterDemo" */;
+			buildPhases = (
+				5238F2C6243EB9210027FABB /* Sources */,
+				5238F2C7243EB9210027FABB /* Frameworks */,
+				5238F2C8243EB9210027FABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueCenterDemo;
+			productName = BlueCenterDemo;
+			productReference = 5238F2CA243EB9210027FABB /* BlueCenterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5238F2C2243EB9210027FABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = lvzhao;
+				TargetAttributes = {
+					5238F2C9243EB9210027FABB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 5238F2C5243EB9210027FABB /* Build configuration list for PBXProject "BlueCenterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5238F2C1243EB9210027FABB;
+			productRefGroup = 5238F2CB243EB9210027FABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5238F2C9243EB9210027FABB /* BlueCenterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5238F2C8243EB9210027FABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5238F2DA243EB9230027FABB /* LaunchScreen.storyboard in Resources */,
+				5238F2D7243EB9230027FABB /* Assets.xcassets in Resources */,
+				5238F2D5243EB9210027FABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5238F2C6243EB9210027FABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5238F2D2243EB9210027FABB /* ViewController.m in Sources */,
+				5238F2DD243EB9230027FABB /* main.m in Sources */,
+				5238F2E9243EBA000027FABB /* UAESCoreBlueManager.m in Sources */,
+				5238F2CF243EB9210027FABB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5238F2D3243EB9210027FABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5238F2D4243EB9210027FABB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5238F2D8243EB9230027FABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5238F2D9243EB9230027FABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5238F2DE243EB9230027FABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5238F2DF243EB9230027FABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5238F2E1243EB9230027FABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBTAUBKVAP;
+				INFOPLIST_FILE = BlueCenterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinniu.BlueCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5238F2E2243EB9230027FABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBTAUBKVAP;
+				INFOPLIST_FILE = BlueCenterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinniu.BlueCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5238F2C5243EB9210027FABB /* Build configuration list for PBXProject "BlueCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5238F2DE243EB9230027FABB /* Debug */,
+				5238F2DF243EB9230027FABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5238F2E0243EB9230027FABB /* Build configuration list for PBXNativeTarget "BlueCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5238F2E1243EB9230027FABB /* Debug */,
+				5238F2E2243EB9230027FABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5238F2C2243EB9210027FABB /* Project object */;
+}
